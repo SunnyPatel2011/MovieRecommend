@@ -1,0 +1,72 @@
+
+
+   .genre-movies {
+    padding-left: 10px;
+    border-left: 0.8px solid rgba(128, 128, 128, 0.349);
+  }
+  
+  .genre-name-title {
+    font-family: nanum Gothic, sans-serif ;
+    font-size: 1.6rem;
+    font-weight: 1;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.699);
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 43px;
+    margin-left: 27px;
+}
+.genre-name-below{
+  font-size: 1rem ;
+  font-weight: bold;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 27px;
+
+}
+  
+
+  .genre-movies select {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 97%;
+    border-radius: 10px;
+    margin-left: 27px;
+
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    ;
+
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

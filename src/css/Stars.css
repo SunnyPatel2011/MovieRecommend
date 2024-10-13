@@ -1,0 +1,23 @@
+/* .rating {
+    display: flex;
+  } */
+  
+  .star {
+    font-size: 24px;
+    color: #ccc;
+    /* position: relative; */
+  }
+  
+  .star.filled {
+    color: #f5c518;
+  }
+  
+  .star.half-filled {
+    color: #ccc;
+    background: linear-gradient(90deg, #f5c518 50%, #ccc 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .movie-synopsis{
+    
+  }

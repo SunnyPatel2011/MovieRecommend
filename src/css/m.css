@@ -1,0 +1,102 @@
+.movie-card {
+  position: relative;
+  border-radius: 10px;
+  margin: 19px;
+  text-align: center;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: all ease-in 0.2s;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); */
+
+
+}
+.movie-card:hover {
+  transform: scale(1.05);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+
+}
+
+.movie-card p {
+  margin: 0 0 10px 0;
+}
+
+.movie-card a {
+  display: block;
+  background: white;
+  color: grey;
+  text-decoration: none;
+  border-radius: 0 0 10px 10px;
+}
+
+.movie-card a:hover {
+  background: rgb(182, 179, 179);
+  color: white;
+}
+
+
+
+
+
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  position: relative;
+}
+
+.star {
+  font-size: 24px;
+  color: #ccc;
+  /* position: relative; */
+}
+
+.star.filled {
+  color: #f5c518;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  border-radius: 3px;
+  white-space: nowrap;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  height: 20px;
+}
+
+.rating:hover .tooltip {
+  opacity: 1;
+}
+
+
+.movie-card-title {
+  font-family: monospace;
+  font-weight: lighter;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 1.2em;
+
+}
+
+
+@media (max-width: 999px) {
+
+  .movie-card {
+    position: static;
+  }
+}
